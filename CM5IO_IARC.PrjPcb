@@ -53,6 +53,40 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\..\..\Downloads\rpi_cm5\Imported part_a\part_a.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VDZXXDZL
+
+[Document2]
+DocumentPath=..\..\..\..\Downloads\rpi_cm5\Imported part_a\Part_b.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XZREFNCL
+
+[Document3]
 DocumentPath=CM5_GPIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -69,7 +103,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UFHJGOEC
 
-[Document2]
+[Document4]
 DocumentPath=CM5_HighSpeed.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,7 +120,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PAVCYSOY
 
-[Document3]
+[Document5]
 DocumentPath=CM5IO_IARC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,7 +137,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document6]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
