@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -12,10 +12,10 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
-AppendSheetNumberToLocalNets=0
-NetlistSinglePinNets=0
+AppendSheetNumberToLocalNets=1
+NetlistSinglePinNets=1
 DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=0
+AutoSheetNumbering=1
 AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
@@ -31,17 +31,19 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=0
+IsProjectConflictPreventionWarningsEnabled=1
 ConstraintManagerFlow=0
-IsVirtualBomDocumentRemoved=0
+IsVirtualBomDocumentRemoved=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=4929A666-7272-45B7-9CA8-91C55E5D7497
 VaultGUID=7017604C-3787-44D4-9C12-0FA7D0BDC9CB
+ReleaseVaultName=Rudra Navdiya
+ItemGUID=4929A666-7272-45B7-9CA8-91C55E5D7497
 IncludeDesignInRelease=0
-CrossRefSheetStyle=2
+CrossRefSheetStyle=1
 CrossRefLocationStyle=1
-CrossRefPorts=3
+CrossRefPorts=2
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
@@ -49,6 +51,108 @@ CrossRefFollowFromMainSettings=1
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
+
+[Document1]
+DocumentPath=..\..\..\..\Downloads\rpi_cm5\Imported part_a\part_a.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VDZXXDZL
+
+[Document2]
+DocumentPath=..\..\..\..\Downloads\rpi_cm5\Imported part_a\Part_b.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XZREFNCL
+
+[Document3]
+DocumentPath=CM5_GPIO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UFHJGOEC
+
+[Document4]
+DocumentPath=CM5_HighSpeed.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PAVCYSOY
+
+[Document5]
+DocumentPath=CM5IO_IARC.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QWOSQDCC
+
+[Document6]
+DocumentPath=Top.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KFHNPFYO
 
 [Configuration1]
 Name=Sources
@@ -1019,10 +1123,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Vault Name
+ComponentLibraryIdentifier0=Rudra Navdiya
+ComponentDesignItemID0=CMP-002-00017-2
+ComponentSymbolReference0=CN-2P-M-R80
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1036,6 +1146,73 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Case/Package
+ParameterUpdate0=1
+ParameterName1=Colour
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=Connector Type
+ParameterUpdate4=1
+ParameterName5=Contact Finish
+ParameterUpdate5=1
+ParameterName6=Contact Gender
+ParameterUpdate6=1
+ParameterName7=Contact Material
+ParameterUpdate7=1
+ParameterName8=Contact Plating
+ParameterUpdate8=1
+ParameterName9=Current Rating
+ParameterUpdate9=1
+ParameterName10=Datasheet URL
+ParameterUpdate10=1
+ParameterName11=Datasheet Version
+ParameterUpdate11=1
+ParameterName12=Description
+ParameterUpdate12=1
+ParameterName13=Gender
+ParameterUpdate13=1
+ParameterName14=Lead Pitch
+ParameterUpdate14=1
+ParameterName15=Library Reference
+ParameterUpdate15=1
+ParameterName16=Manufacturer
+ParameterUpdate16=1
+ParameterName17=Manufacturer URL
+ParameterUpdate17=1
+ParameterName18=Max Current Rating
+ParameterUpdate18=1
+ParameterName19=Max Operating Temperature
+ParameterUpdate19=1
+ParameterName20=Min Operating Temperature
+ParameterUpdate20=1
+ParameterName21=Mounting Technology
+ParameterUpdate21=1
+ParameterName22=Package Description
+ParameterUpdate22=1
+ParameterName23=Package Quantity
+ParameterUpdate23=1
+ParameterName24=Package Reference
+ParameterUpdate24=1
+ParameterName25=Package URL
+ParameterUpdate25=1
+ParameterName26=Packaging
+ParameterUpdate26=1
+ParameterName27=Pins
+ParameterUpdate27=1
+ParameterName28=RoHS Compliant
+ParameterUpdate28=1
+ParameterName29=Rows
+ParameterUpdate29=1
+ParameterName30=Voltage Rating
+ParameterUpdate30=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=TECO-4-103777-0_V
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1050,4 +1227,7 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
