@@ -79,7 +79,7 @@ The board was designed while learning and improving high-speed PCB design practi
 | ------------------- | ----------------------------- |
 | Main Module         | Raspberry Pi Compute Module 5 |
 | PCB Software        | Altium Designer               |
-| PCB Layers          | 2                             |
+| PCB Layers          | 4                             |
 | Interfaces          | GPIO, USB, UART, SPI, I2C     |
 | Primary Application | Robotics / UAV Systems        |
 | Competition         | IARC Mission 10               |
