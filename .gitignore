@@ -1,28 +1,41 @@
-### Altium ###
-# Previews Folders
+gitignore
+# Altium Designer
+
+# Preview folders
 **/__Previews/
 
-# History Folders
+# History and autosave
 **/History/*
-
-# Project Logs
+History/*
 Project Logs*/
 
-# Project Outputs
+# Output folders
 Project Outputs*/
+Outputs/
 
-# Auto-conversion notices
-*.PcbDoc.htm
-
-# Access lock file for dbLib sources
-**/*.ldb
-
-# Document Local Metadata
+# Metadata and cache
 *.metadata
+*.Dat
+*.Dsk
 
-# Project hierarchy auto-generated file
+# Auto-generated structure files
 *.PrjPcbStructure
 *.PrjMbdStructure
 
-# Folder to save each comparison results
+# Comparison history
 CompareHistory/
+
+# Temporary files
+*.log
+*.bak
+*.tmp
+
+# Database lock files
+*.ldb
+
+# Generated HTML files
+*.PcbDoc.htm
+
+# OS junk
+.DS_Store
+Thumbs.db
